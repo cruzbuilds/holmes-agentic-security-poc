@@ -1,0 +1,40 @@
+{
+  "FIN-LAPTOP-042": {
+    "owner": "jsmith",
+    "department": "Finance",
+    "business_function": "Accounts payable",
+    "environment": "corporate endpoint",
+    "criticality": "high",
+    "cloud_access": "Has long-lived IAM access keys for the finance-analytics AWS account (GPU quota enabled)",
+    "normal_regions": [
+      "us-east-1"
+    ]
+  },
+  "DEV-WS-208": {
+    "owner": "pkumar",
+    "department": "Engineering",
+    "business_function": "Internal tools developer",
+    "environment": "developer workstation",
+    "criticality": "medium",
+    "cloud_access": "SSO only, no stored keys",
+    "notes": "Developers are allowed to install tools but unsigned binaries violate policy."
+  },
+  "HR-LAPTOP-017": {
+    "owner": "ahernandez",
+    "department": "Human Resources",
+    "business_function": "HR generalist",
+    "environment": "corporate endpoint",
+    "criticality": "medium",
+    "cloud_access": "none",
+    "notes": "Enrolled in the 2026-09-25 maintenance window."
+  },
+  "SALES-LAPTOP-311": {
+    "owner": "mlee",
+    "department": "Sales",
+    "business_function": "Account executive",
+    "environment": "corporate endpoint",
+    "criticality": "medium",
+    "cloud_access": "none",
+    "notes": "No red-team exercise is scheduled for this host (per security calendar)."
+  }
+}

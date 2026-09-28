@@ -1,0 +1,35 @@
+{
+  "simulation": true,
+  "incident_id": "INC-1057",
+  "host": "DEV-WS-208",
+  "user": "pkumar",
+  "events": [
+    {
+      "time": "2026-09-25T09:14:02Z",
+      "source": "endpoint",
+      "event": "Browser downloaded an unsigned executable",
+      "file_name": "fast-json-formatter.exe",
+      "file_hash": "7c9a2e11b5f0synthetic00000000000000000000000000000000000000000208"
+    },
+    {
+      "time": "2026-09-25T09:14:30Z",
+      "source": "endpoint",
+      "event": "User launched the unsigned executable",
+      "process": "fast-json-formatter.exe"
+    },
+    {
+      "time": "2026-09-25T09:15:12Z",
+      "source": "network",
+      "event": "Process connected to an uncommon external domain",
+      "process": "fast-json-formatter.exe",
+      "destination_domain": "telemetry.fjf-tools.example",
+      "destination_ip": "198.51.100.23"
+    },
+    {
+      "time": "2026-09-25T09:15:50Z",
+      "source": "endpoint",
+      "event": "Process exited normally after about 80 seconds; no further activity observed",
+      "process": "fast-json-formatter.exe"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "e3b1f0c4d2a7synthetic0000000000000000000000000000000000000000042a": {"type": "file_hash", "reputation": "malicious", "family": "SYN-InfoStealer (synthetic)", "notes": "Credential-stealing loader seen in invoice-themed phishing. Known to harvest cloud CLI credentials and drop a CPU miner."},
+  "cdn-invoice-sync.example": {"type": "domain", "reputation": "malicious", "first_seen": "2026-09-20", "notes": "Exfiltration endpoint associated with SYN-InfoStealer. Registered 4 days before this incident."},
+  "203.0.113.66": {"type": "ip", "reputation": "malicious", "notes": "Hosts cdn-invoice-sync.example; also observed relaying traffic to a public cryptomining pool."},
+  "billing-notice.example": {"type": "domain", "reputation": "malicious", "notes": "Sender domain in an active invoice-themed phishing campaign (synthetic)."},
+  "7c9a2e11b5f0synthetic00000000000000000000000000000000000000000208": {"type": "file_hash", "reputation": "unknown", "prevalence": "1 host in environment", "notes": "No reputation data. Not signed. Not seen in threat intel."},
+  "telemetry.fjf-tools.example": {"type": "domain", "reputation": "unknown", "first_seen": "2026-08-30", "notes": "Low-prevalence domain. No malicious reports, but recently registered."},
+  "a41d77e0c93bsynthetic00000000000000000000000000000000000000000017": {"type": "file_hash", "reputation": "known_good", "notes": "Signed internal IT updater, deployed fleet-wide."},
+  "updates.examplecorp-it.example": {"type": "domain", "reputation": "known_good", "notes": "Corporate software distribution endpoint. New CDN node rolled out 2026-09-25."},
+  "192.0.2.10": {"type": "ip", "reputation": "known_good", "notes": "Corporate update CDN node."}
+}

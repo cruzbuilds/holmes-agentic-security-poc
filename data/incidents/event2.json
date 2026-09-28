@@ -1,0 +1,11 @@
+{
+  "simulation": true,
+  "incident_id": "INC-1061",
+  "host": "HR-LAPTOP-017",
+  "user": "ahernandez",
+  "events": [
+    {"time": "2026-09-25T16:40:00Z", "source": "endpoint", "event": "Software updater started a new process after a scheduled maintenance window", "process": "corp-updater.exe", "signed_by": "Example Corp IT", "file_hash": "a41d77e0c93bsynthetic00000000000000000000000000000000000000000017"},
+    {"time": "2026-09-25T16:40:22Z", "source": "network", "event": "Process connected to an external host not seen from this laptop before", "process": "corp-updater.exe", "destination_domain": "updates.examplecorp-it.example", "destination_ip": "192.0.2.10"},
+    {"time": "2026-09-25T16:42:10Z", "source": "endpoint", "event": "Updater replaced several application files and requested a reboot", "process": "corp-updater.exe"}
+  ]
+}

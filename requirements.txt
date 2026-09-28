@@ -1,0 +1,5 @@
+strands-agents>=1.57
+mcp>=2.1
+streamlit>=1.64
+python-dotenv
+pydantic>=2

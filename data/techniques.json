@@ -1,0 +1,9 @@
+[
+  {"id": "T1566.001", "name": "Phishing: Spearphishing Attachment", "tactic": "Initial Access", "keywords": ["attachment", "invoice", "email", "phish"]},
+  {"id": "T1204.002", "name": "User Execution: Malicious File", "tactic": "Execution", "keywords": ["spawned", "child process", "launched", "opened", "executable"]},
+  {"id": "T1552.001", "name": "Unsecured Credentials: Credentials In Files", "tactic": "Credential Access", "keywords": ["credential", "credentials file", "keys"]},
+  {"id": "T1071", "name": "Application Layer Protocol (C2)", "tactic": "Command and Control", "keywords": ["connected", "external host", "unseen", "domain"]},
+  {"id": "T1078.004", "name": "Valid Accounts: Cloud Accounts", "tactic": "Defense Evasion / Persistence", "keywords": ["identity", "cloud", "iam", "same identity"]},
+  {"id": "T1496", "name": "Resource Hijacking", "tactic": "Impact", "keywords": ["gpu", "mining", "miner", "compute"]},
+  {"id": "T1547.001", "name": "Boot or Logon Autostart: Startup Folder", "tactic": "Persistence", "keywords": ["startup folder", "autostart", "run key"]}
+]

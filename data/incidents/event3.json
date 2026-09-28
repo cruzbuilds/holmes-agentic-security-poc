@@ -1,0 +1,13 @@
+{
+  "simulation": true,
+  "incident_id": "INC-1042",
+  "host": "FIN-LAPTOP-042",
+  "user": "jsmith",
+  "events": [
+    {"time": "2026-09-24T14:02:11Z", "source": "email", "event": "User opened an unexpected invoice attachment", "attachment": "Invoice_Q3_Overdue.docm", "sender_domain": "billing-notice.example"},
+    {"time": "2026-09-24T14:02:39Z", "source": "endpoint", "event": "Attachment spawned an unexpected child process", "process": "invsync.exe", "file_hash": "e3b1f0c4d2a7synthetic0000000000000000000000000000000000000000042a"},
+    {"time": "2026-09-24T14:03:05Z", "source": "endpoint", "event": "Process accessed a stored cloud credential location", "process": "invsync.exe", "path_category": "cloud CLI credentials file"},
+    {"time": "2026-09-24T14:03:40Z", "source": "network", "event": "Process connected to a previously unseen external host", "process": "invsync.exe", "destination_domain": "cdn-invoice-sync.example", "destination_ip": "203.0.113.66"},
+    {"time": "2026-09-24T14:21:17Z", "source": "cloud", "event": "The same identity launched unusual GPU compute shortly afterward", "identity": "jsmith", "instance_type": "p4d.24xlarge", "count": 12, "region": "ap-southeast-3"}
+  ]
+}
